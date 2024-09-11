@@ -11,25 +11,27 @@
     
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-    
+   
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="./Images/LogoCarShareJ.png" alt="Logo de CarSharingJ" width="150">
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-primary text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="./Images/LogoCarShareJ.png" alt="Logo de CarSharingJ" width="150">
+            </div>
+            <nav>
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item mr-3"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                    <li class="nav-item mr-3"><a class="nav-link text-white" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item mr-3"><a class="nav-link text-white" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item mr-3"><a class="nav-link text-white" href="tarifas.html">Tarifas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="tarifas.html">Tarifas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
-    <main class="main-section">
+    <main class="container flex-grow-1 py-4">
         <h1>Nuestras Tarifas</h1>
         <p>En CarSharingJ, ofrecemos tarifas competitivas y flexibles para adaptarse a tus necesidades:</p>
         <h2>Tarifa por Hora</h2>
@@ -41,8 +43,13 @@
         <h2>Descuentos y Promociones</h2>
         <p>Ofrecemos descuentos especiales para estudiantes, empresas y usuarios frecuentes. ¡Consulta nuestras promociones actuales!</p>
     </main>
-    <footer>
+    <footer class="bg-dark text-white text-center p-3 mt-auto">
         <p>&copy; 2024 CarSharingJ Inc. Todos los derechos reservados.</p>
     </footer>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
