@@ -1,0 +1,12 @@
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: $secondary-color;
+    color: $text-color;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    @extend .btn;
+    background-color: $primary-color;
+  }
