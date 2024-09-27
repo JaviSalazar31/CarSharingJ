@@ -1,0 +1,45 @@
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;  // Asegurarnos de que no tenga sangría a la izquierda
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%; // Para que ocupen todo el ancho del formulario
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; // Aseguramos que el padding no afecte el ancho
+    }
+
+    textarea {
+        resize: none; // Evitamos que el usuario cambie el tamaño del campo de texto
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}
