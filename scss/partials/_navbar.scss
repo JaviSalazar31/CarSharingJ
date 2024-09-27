@@ -1,23 +1,25 @@
 .navbar {
-  background-color: #333;
-  padding: 10px;
-  list-style: none;
-  display: block;  // Utiliza un modelo de bloque sencillo
+  background-color: #003366; /* Color de fondo del menú */
 }
 
-.navbar li {
-  display: inline-block;  // Para que los elementos se alineen horizontalmente
+.navbar-nav .nav-link {
+  color: white; /* Color del texto */
   margin-right: 15px;
+  font-size: 1.1rem;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  @include text-center;  // Usa el mixin para centrar texto
-  @include apply-margin(5px, 5px);  // Aplica márgenes personalizados
+.navbar-nav .nav-link:hover {
+  color: #ff6600; /* Color del texto al pasar el mouse */
 }
 
-.navbar a:hover {
-  color: #ccc;
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
 }
