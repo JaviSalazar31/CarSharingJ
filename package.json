@@ -1,10 +1,12 @@
 {
   "name": "carsharingj",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "scss": "sass --watch scss/styles.scss css/styles.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    // Aquí estarían tus dependencias
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

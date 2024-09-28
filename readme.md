@@ -30,3 +30,40 @@ CarSharingJ es una plataforma web para alquilar vehículos de forma rápida y se
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/usuario/CarSharingJ.git
+
+## Uso
+1. Navega por las distintas secciones del sitio:
+
+_Inicio: Información general sobre la plataforma.
+_Nosotros: Conoce más sobre nuestra misión y visión.
+_Servicios: Detalles de los servicios ofrecidos.
+_Tarifas: Precios y paquetes de alquiler.
+_Contacto: Formulario para hacer consultas.
+
+2.En la sección Flota, podrás ver una galería de los vehículos disponibles con imágenes e información básica.
+
+3. Usa el formulario de contacto para comunicarte con el equipo de CarSharingJ.
+
+## Secciones
+
+Inicio
+Breve descripción del servicio de CarSharingJ con un diseño amigable para el usuario.
+
+Nosotros
+Sección dedicada a presentar el equipo y los valores de la empresa.
+
+Servicios
+Lista detallada de los servicios de alquiler y paquetes que ofrecemos a nuestros clientes.
+
+Tarifa
+Información sobre los precios de alquiler, con opciones adaptadas a diferentes necesidades.
+
+Contacto
+Formulario para que los usuarios se comuniquen directamente con el equipo de soporte.
+
+Flota
+Galería de imágenes de los vehículos disponibles, con animaciones y efectos al hacer hover sobre las imágenes.
+
+## Licencia
+
+Este proyecto está licenciado bajo la licencia MIT - mira el archivo LICENSE para más detalles.
