@@ -8,7 +8,6 @@ CarSharingJ es una plataforma web para alquilar vehículos de forma rápida y se
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Secciones](#secciones)
-- [Licencia](#licencia)
 
 ## Características
 - Plataforma totalmente responsiva.
@@ -26,44 +25,31 @@ CarSharingJ es una plataforma web para alquilar vehículos de forma rápida y se
 - **Node.js**: Para la gestión de paquetes y herramientas de desarrollo (Sass, etc.).
 
 ## Instalación
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/usuario/CarSharingJ.git
+1. **Clona el repositorio**
+git clone https://github.com/tuusuario/carsharingj.git
+2. **Navega al directorio del proyecto cd carsharingj**
+3. **Instala las dependencias**
+nmp install
+4. **Compila SCSS a CSS**
+npm run scss
 
 ## Uso
-1. Navega por las distintas secciones del sitio:
 
-_Inicio: Información general sobre la plataforma.
-_Nosotros: Conoce más sobre nuestra misión y visión.
-_Servicios: Detalles de los servicios ofrecidos.
-_Tarifas: Precios y paquetes de alquiler.
-_Contacto: Formulario para hacer consultas.
+Para ejecutar el proyecto en tu entorno local, sigue estos pasos:
+1. **Abre el archivo index.html en tu navegador.**
+2. **Asegúrate de que los estilos y scripts estén correctamente enlazados y funcionando.**
+3. **Si realizas cambios en los archivos .scss, compílalos nuevamente con el comando:**
+npm run scss
 
-2.En la sección Flota, podrás ver una galería de los vehículos disponibles con imágenes e información básica.
-
-3. Usa el formulario de contacto para comunicarte con el equipo de CarSharingJ.
+El sitio es completamente responsive y está optimizado para dispositivos móviles.
 
 ## Secciones
 
-Inicio
-Breve descripción del servicio de CarSharingJ con un diseño amigable para el usuario.
+El sitio web cuenta con las siguientes secciones:
 
-Nosotros
-Sección dedicada a presentar el equipo y los valores de la empresa.
-
-Servicios
-Lista detallada de los servicios de alquiler y paquetes que ofrecemos a nuestros clientes.
-
-Tarifa
-Información sobre los precios de alquiler, con opciones adaptadas a diferentes necesidades.
-
-Contacto
-Formulario para que los usuarios se comuniquen directamente con el equipo de soporte.
-
-Flota
-Galería de imágenes de los vehículos disponibles, con animaciones y efectos al hacer hover sobre las imágenes.
-
-## Licencia
-
-Este proyecto está licenciado bajo la licencia MIT - mira el archivo LICENSE para más detalles.
+1. **Inicio**: Presenta la plataforma CarSharingJ con una breve descripción.
+2. **Nosotros**: Información sobre la empresa y su misión.
+3. **Servicios**: Muestra los servicios de alquiler de vehículos ofrecidos.
+4. **Tarifas**: Detalle de los costos de alquiler según tipo de vehículo.
+5. **Contacto**: Formulario para que los usuarios puedan contactarse con la empresa.
+6. **Flota**: Información e imágenes de los vehículos disponibles para alquilar.
